@@ -14,3 +14,16 @@ This project performs data preprocessing and exploratory data analysis (EDA) for
   4. Data Distribution Histograms
   5. Spearman Correlation Heatmap
   6. Scatter Plots of sr_avg vs other variables
+
+
+## **⚙️ How to Run**
+
+### **1️⃣ Install Dependencies**
+pip install pandas numpy matplotlib seaborn pvlib scipy
+
+### **2️⃣ Prepare the Dataset**
+* Place your dataset (Excel format) inside the `data`/ folder.
+* Ensure the datetime column is named Time and formatted as %d/%m/%Y %H:%M:%S.
+
+### **3️⃣ Run the Script**
+`python [01]_preprocessing_and_eda.py`
